@@ -4,6 +4,8 @@ The API point can be changed from the default (https://api.stationdisplay.com/st
 
 The Station display will make the following request generaly every 30 seconds unless an error occured.
 
+Your server must provide SSL but the certificate can be self-signed. At this time the Station Display can only make https requests.
+
 The following headers are sent by the Station Display:
 ```
 Authorization: Device authentication for official API
